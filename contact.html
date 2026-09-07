@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Horizons - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <header class="top-nav">
+        <div class="container nav-container">
+
+            <!-- Brand Logo -->
+            <a href="index.html" class="nav-logo">
+                <img src="./assets/logo.png" alt="Nova Horizons" class="brand-logo">
+            </a>
+
+            <!-- Hamburger / Close Button (Mobile Only) -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+            <!-- Collapsible Menu -->
+            <div class="nav-menu" id="nav-menu">
+                <nav class="nav-pill">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="arrcla.html">ARRCLA</a>
+                    <a href="contact.html" class="active">Contact Us</a>
+                </nav>
+
+                <div class="nav-action">
+                    <a href="contact.html" class="btn-nav-gold">Get Connected</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Contact Page Hero Section -->
+    <div class="contact-hero-wrapper">
+        <section class="contact-hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="page-title">Contact Us</h1>
+                    <p class="page-subtitle">Connect with our experts to discuss your corporate strategy and advisory needs.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Form & Info Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Left Column: Image & Contact Details -->
+                <div class="contact-left">
+                    <!-- Image Card -->
+                    <div class="contact-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=800" alt="Nova Horizons Team Member" class="contact-img">
+                    </div>
+
+                    <!-- Info Card -->
+                    <div class="contact-info-card">
+
+                        <!-- Email -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@novahorizons.com">info@novahorizons.com</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+971564704833">+971 56 470 4833</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Office -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Office</h4>
+                                <p>Unit 282, DMCC Business Centre, Level 8, Jewellery & Gemplex 2, Dubai, UAE</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right Column: Contact Form -->
+                <div class="contact-right">
+                    <div class="contact-form-card">
+                        <h2 class="form-title">Get in touch</h2>
+                        <p class="form-subtitle">Our advisory team would love to hear from you.</p>
+
+                        <!-- Simplified Form pointing to your custom PHP script -->
+                        <form action="contact.php" method="POST" class="contact-form">
+
+                            <!-- First Name -->
+                            <div class="form-group">
+                                <label for="firstName">First name</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="First name" required>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="you@company.com" required>
+                            </div>
+
+                            <!-- Phone Number (Single Field) -->
+                            <div class="form-group">
+                                <label for="phone">Phone number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="e.g. +971 50 000 0000" required>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Leave us a message..." required></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn-submit">Send message</button>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-light ">
+        <div class="container ">
+            <div class="footer-grid ">
+
+                <!-- Column 1: Brand & Description -->
+                <div class="footer-col brand-col ">
+                    <div class="footer-logo ">
+                        <!-- Nova Horizons Logo -->
+                        <img src="./assets/logo.png " alt="Nova Horizons " class="footer-brand-logo ">
+                    </div>
+                    <p class="company-name ">Nova Horizons Management Consultancy L.L.C</p>
+                    <p class="company-desc ">Your trusted partner for strategic advisory, corporate structuring, and governance across the UAE, Africa, and international markets.</p>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col nav-col ">
+                    <h4 class="footer-heading ">NAVIGATION</h4>
+                    <ul class="footer-links ">
+                        <li><a href="index.html ">Home</a></li>
+                        <li><a href="# ">About Us</a></li>
+                        <li><a href="# ">Services</a></li>
+                        <li><a href="# ">ARRCLA</a></li>
+                        <li><a href="# ">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact Info -->
+                <div class="footer-col contact-col ">
+                    <h4 class="footer-heading ">CONTACT</h4>
+                    <p class="contact-company ">Nova Horizons Management Consultancy L.L.C</p>
+                    <p class="contact-details ">
+                        Free Zone Dubai<br> Unit No: 282 DMCC Business Centre<br> Level No 8 Jewellery & Gemplex 2 Dubai<br> United Arab Emirates
+                    </p>
+                    <ul class="contact-info ">
+                        <li><i class="fa-solid fa-envelope "></i> <a href="mailto:info@novahorizons.com ">info@novahorizons.com</a></li>
+                        <li><i class="fa-solid fa-phone "></i> <a href="tel:+971564704833 ">+971 56 470 4833</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom (Legal) -->
+            <div class="footer-bottom ">
+                <p class="copyright ">© 2026 Nova Horizons Management Consultancy L.L.C. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js "></script>
+</body>
+
+</html>
